@@ -1,0 +1,10 @@
+2022-07-02 17:52:56,228 - Trainer - INFO - Training Epoch: [ 0 / 5 ] | AvgLoss is 13.735261975356511
+2022-07-02 17:53:14,283 - Trainer - INFO - Validing Epoch: [ 0 / 5 ] | AvgScore is 0.6383568817471629
+2022-07-02 17:57:43,781 - Trainer - INFO - Training Epoch: [ 1 / 5 ] | AvgLoss is 7.624607933929989
+2022-07-02 17:58:01,423 - Trainer - INFO - Validing Epoch: [ 1 / 5 ] | AvgScore is 0.6383568817471629
+2022-07-02 18:02:27,523 - Trainer - INFO - Training Epoch: [ 2 / 5 ] | AvgLoss is 7.478760473387582
+2022-07-02 18:02:45,451 - Trainer - INFO - Validing Epoch: [ 2 / 5 ] | AvgScore is 0.6383568817471629
+2022-07-02 18:07:10,708 - Trainer - INFO - Training Epoch: [ 3 / 5 ] | AvgLoss is 7.486467473506927
+2022-07-02 18:07:28,420 - Trainer - INFO - Validing Epoch: [ 3 / 5 ] | AvgScore is 0.6383568817471629
+2022-07-02 18:11:52,944 - Trainer - INFO - Training Epoch: [ 4 / 5 ] | AvgLoss is 7.539158414431981
+2022-07-02 18:12:10,834 - Trainer - INFO - Validing Epoch: [ 4 / 5 ] | AvgScore is 0.6383568817471629
