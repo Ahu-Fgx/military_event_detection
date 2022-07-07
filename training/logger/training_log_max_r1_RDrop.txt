@@ -1,0 +1,150 @@
+2022-07-07 15:29:58,386 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 0 ] | AvgScore is 0.0
+2022-07-07 15:31:00,681 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 50 ] | AvgScore is 0.07660573720932007  ↑↑↑
+2022-07-07 15:32:06,927 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 100 ] | AvgScore is 0.2670711576938629  ↑↑↑
+2022-07-07 15:33:13,454 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 150 ] | AvgScore is 0.20006723701953888
+2022-07-07 15:34:20,378 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 200 ] | AvgScore is 0.4908522963523865  ↑↑↑
+2022-07-07 15:35:27,693 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 250 ] | AvgScore is 0.4921019375324249  ↑↑↑
+2022-07-07 15:36:36,548 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 300 ] | AvgScore is 0.42500245571136475
+2022-07-07 15:37:43,991 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 350 ] | AvgScore is 0.34425732493400574
+2022-07-07 15:38:52,214 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 400 ] | AvgScore is 0.47924861311912537
+2022-07-07 15:39:58,673 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 450 ] | AvgScore is 0.44358235597610474
+2022-07-07 15:41:06,313 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 500 ] | AvgScore is 0.4771922528743744
+2022-07-07 15:42:13,488 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 550 ] | AvgScore is 0.49072766304016113
+2022-07-07 15:43:19,962 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 600 ] | AvgScore is 0.5082207918167114  ↑↑↑
+2022-07-07 15:44:27,548 - Trainer - INFO - Validing Epoch: [ 0 / 10 ] Step [ 650 ] | AvgScore is 0.4858052432537079
+2022-07-07 15:44:59,762 - Trainer - INFO - Training Epoch: [ 1 / 10 ] | Avg Loss is 0.05513099650453244
+2022-07-07 15:45:34,204 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 700 ] | AvgScore is 0.44186949729919434
+2022-07-07 15:46:42,088 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 750 ] | AvgScore is 0.5494852662086487  ↑↑↑
+2022-07-07 15:47:51,281 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 800 ] | AvgScore is 0.443116158246994
+2022-07-07 15:48:59,546 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 850 ] | AvgScore is 0.4839402735233307
+2022-07-07 15:50:07,104 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 900 ] | AvgScore is 0.5325391888618469
+2022-07-07 15:51:15,007 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 950 ] | AvgScore is 0.5019370317459106
+2022-07-07 15:52:22,571 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 1000 ] | AvgScore is 0.5073946714401245
+2022-07-07 15:53:28,629 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 1050 ] | AvgScore is 0.5232070088386536
+2022-07-07 15:54:36,314 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 1100 ] | AvgScore is 0.5168045163154602
+2022-07-07 15:55:44,485 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 1150 ] | AvgScore is 0.4913371205329895
+2022-07-07 15:56:54,658 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 1200 ] | AvgScore is 0.5306513905525208
+2022-07-07 15:58:02,415 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 1250 ] | AvgScore is 0.4772816300392151
+2022-07-07 15:59:08,784 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 1300 ] | AvgScore is 0.538825511932373
+2022-07-07 16:00:15,476 - Trainer - INFO - Validing Epoch: [ 1 / 10 ] Step [ 1350 ] | AvgScore is 0.5176297426223755
+2022-07-07 16:00:47,648 - Trainer - INFO - Training Epoch: [ 2 / 10 ] | Avg Loss is 0.02745242579407724
+2022-07-07 16:01:22,825 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 1400 ] | AvgScore is 0.47013741731643677
+2022-07-07 16:02:30,384 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 1450 ] | AvgScore is 0.5226303935050964
+2022-07-07 16:03:37,430 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 1500 ] | AvgScore is 0.479703813791275
+2022-07-07 16:04:44,404 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 1550 ] | AvgScore is 0.48079222440719604
+2022-07-07 16:05:51,998 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 1600 ] | AvgScore is 0.5375498533248901
+2022-07-07 16:06:58,337 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 1650 ] | AvgScore is 0.5402418375015259
+2022-07-07 16:08:09,325 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 1700 ] | AvgScore is 0.5196512341499329
+2022-07-07 16:09:16,507 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 1750 ] | AvgScore is 0.5371696949005127
+2022-07-07 16:10:27,260 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 1800 ] | AvgScore is 0.5777020454406738  ↑↑↑
+2022-07-07 16:11:36,237 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 1850 ] | AvgScore is 0.5553416609764099
+2022-07-07 16:12:45,583 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 1900 ] | AvgScore is 0.6081305742263794  ↑↑↑
+2022-07-07 16:13:58,192 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 1950 ] | AvgScore is 0.58058762550354
+2022-07-07 16:15:05,315 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 2000 ] | AvgScore is 0.5761721730232239
+2022-07-07 16:16:14,162 - Trainer - INFO - Validing Epoch: [ 2 / 10 ] Step [ 2050 ] | AvgScore is 0.5684553980827332
+2022-07-07 16:16:46,259 - Trainer - INFO - Training Epoch: [ 3 / 10 ] | Avg Loss is 0.020945566802402026
+2022-07-07 16:17:22,952 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2100 ] | AvgScore is 0.573769748210907
+2022-07-07 16:18:33,068 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2150 ] | AvgScore is 0.606931746006012
+2022-07-07 16:19:43,251 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2200 ] | AvgScore is 0.573743462562561
+2022-07-07 16:20:52,287 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2250 ] | AvgScore is 0.5868407487869263
+2022-07-07 16:22:01,521 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2300 ] | AvgScore is 0.5954500436782837
+2022-07-07 16:23:09,330 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2350 ] | AvgScore is 0.5764233469963074
+2022-07-07 16:24:20,062 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2400 ] | AvgScore is 0.5499234795570374
+2022-07-07 16:25:29,804 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2450 ] | AvgScore is 0.5702966451644897
+2022-07-07 16:26:38,091 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2500 ] | AvgScore is 0.5962849259376526
+2022-07-07 16:27:47,148 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2550 ] | AvgScore is 0.555077850818634
+2022-07-07 16:28:55,189 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2600 ] | AvgScore is 0.5715454816818237
+2022-07-07 16:30:01,709 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2650 ] | AvgScore is 0.4942779839038849
+2022-07-07 16:31:09,046 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2700 ] | AvgScore is 0.5296761393547058
+2022-07-07 16:32:16,318 - Trainer - INFO - Validing Epoch: [ 3 / 10 ] Step [ 2750 ] | AvgScore is 0.5751250982284546
+2022-07-07 16:32:50,434 - Trainer - INFO - Training Epoch: [ 4 / 10 ] | Avg Loss is 0.013100225596281235
+2022-07-07 16:33:26,684 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 2800 ] | AvgScore is 0.5542866587638855
+2022-07-07 16:34:33,668 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 2850 ] | AvgScore is 0.5937645435333252
+2022-07-07 16:35:41,869 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 2900 ] | AvgScore is 0.6140357851982117  ↑↑↑
+2022-07-07 16:36:51,605 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 2950 ] | AvgScore is 0.5907054543495178
+2022-07-07 16:38:00,643 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 3000 ] | AvgScore is 0.6129511594772339
+2022-07-07 16:39:07,525 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 3050 ] | AvgScore is 0.6138970255851746
+2022-07-07 16:40:17,654 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 3100 ] | AvgScore is 0.6033802628517151
+2022-07-07 16:41:27,867 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 3150 ] | AvgScore is 0.6025949120521545
+2022-07-07 16:42:36,536 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 3200 ] | AvgScore is 0.5930755734443665
+2022-07-07 16:43:46,928 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 3250 ] | AvgScore is 0.5924813747406006
+2022-07-07 16:44:53,625 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 3300 ] | AvgScore is 0.5856083631515503
+2022-07-07 16:46:04,269 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 3350 ] | AvgScore is 0.5813223719596863
+2022-07-07 16:47:14,340 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 3400 ] | AvgScore is 0.5943793654441833
+2022-07-07 16:48:23,114 - Trainer - INFO - Validing Epoch: [ 4 / 10 ] Step [ 3450 ] | AvgScore is 0.5919754505157471
+2022-07-07 16:48:56,863 - Trainer - INFO - Training Epoch: [ 5 / 10 ] | Avg Loss is 0.0070773195168502365
+2022-07-07 16:49:32,787 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 3500 ] | AvgScore is 0.5573561787605286
+2022-07-07 16:50:40,091 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 3550 ] | AvgScore is 0.5951771140098572
+2022-07-07 16:51:50,267 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 3600 ] | AvgScore is 0.6008122563362122
+2022-07-07 16:53:00,922 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 3650 ] | AvgScore is 0.5965264439582825
+2022-07-07 16:54:10,991 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 3700 ] | AvgScore is 0.5914731025695801
+2022-07-07 16:55:21,117 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 3750 ] | AvgScore is 0.6188570857048035  ↑↑↑
+2022-07-07 16:56:31,993 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 3800 ] | AvgScore is 0.5978938341140747
+2022-07-07 16:57:40,477 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 3850 ] | AvgScore is 0.5907611846923828
+2022-07-07 16:58:48,315 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 3900 ] | AvgScore is 0.6001507639884949
+2022-07-07 16:59:54,402 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 3950 ] | AvgScore is 0.5978115797042847
+2022-07-07 17:01:05,099 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 4000 ] | AvgScore is 0.6122121214866638
+2022-07-07 17:02:13,937 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 4050 ] | AvgScore is 0.6110535264015198
+2022-07-07 17:03:25,777 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 4100 ] | AvgScore is 0.5975244045257568
+2022-07-07 17:04:34,108 - Trainer - INFO - Validing Epoch: [ 5 / 10 ] Step [ 4150 ] | AvgScore is 0.6264890432357788  ↑↑↑
+2022-07-07 17:05:08,244 - Trainer - INFO - Training Epoch: [ 6 / 10 ] | Avg Loss is 0.002999703062326132
+2022-07-07 17:05:45,615 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4200 ] | AvgScore is 0.6056423187255859
+2022-07-07 17:06:53,016 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4250 ] | AvgScore is 0.6194861531257629
+2022-07-07 17:08:00,086 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4300 ] | AvgScore is 0.6294716000556946  ↑↑↑
+2022-07-07 17:09:09,830 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4350 ] | AvgScore is 0.6310680508613586  ↑↑↑
+2022-07-07 17:10:20,473 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4400 ] | AvgScore is 0.6079359650611877
+2022-07-07 17:11:31,932 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4450 ] | AvgScore is 0.6008005738258362
+2022-07-07 17:12:42,555 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4500 ] | AvgScore is 0.6126859188079834
+2022-07-07 17:13:52,818 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4550 ] | AvgScore is 0.6165026426315308
+2022-07-07 17:14:59,840 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4600 ] | AvgScore is 0.6232190132141113
+2022-07-07 17:16:07,860 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4650 ] | AvgScore is 0.610880434513092
+2022-07-07 17:17:15,706 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4700 ] | AvgScore is 0.6090704798698425
+2022-07-07 17:18:21,378 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4750 ] | AvgScore is 0.6116605401039124
+2022-07-07 17:19:28,324 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4800 ] | AvgScore is 0.6189059615135193
+2022-07-07 17:20:35,580 - Trainer - INFO - Validing Epoch: [ 6 / 10 ] Step [ 4850 ] | AvgScore is 0.614870548248291
+2022-07-07 17:21:07,821 - Trainer - INFO - Training Epoch: [ 7 / 10 ] | Avg Loss is 0.0009909502168687012
+2022-07-07 17:21:42,745 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 4900 ] | AvgScore is 0.6246868371963501
+2022-07-07 17:22:50,494 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 4950 ] | AvgScore is 0.6206318140029907
+2022-07-07 17:24:00,707 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 5000 ] | AvgScore is 0.6210492253303528
+2022-07-07 17:25:10,729 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 5050 ] | AvgScore is 0.6237815618515015
+2022-07-07 17:26:20,324 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 5100 ] | AvgScore is 0.6217401623725891
+2022-07-07 17:27:27,372 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 5150 ] | AvgScore is 0.6222547888755798
+2022-07-07 17:28:32,487 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 5200 ] | AvgScore is 0.6148017048835754
+2022-07-07 17:29:38,733 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 5250 ] | AvgScore is 0.6157670617103577
+2022-07-07 17:30:45,043 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 5300 ] | AvgScore is 0.6180259585380554
+2022-07-07 17:31:52,162 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 5350 ] | AvgScore is 0.6145906448364258
+2022-07-07 17:32:58,770 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 5400 ] | AvgScore is 0.6155781745910645
+2022-07-07 17:34:06,009 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 5450 ] | AvgScore is 0.614101767539978
+2022-07-07 17:35:15,196 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 5500 ] | AvgScore is 0.6113861203193665
+2022-07-07 17:36:25,185 - Trainer - INFO - Validing Epoch: [ 7 / 10 ] Step [ 5550 ] | AvgScore is 0.6114262342453003
+2022-07-07 17:36:57,042 - Trainer - INFO - Training Epoch: [ 8 / 10 ] | Avg Loss is 0.0004917686750299514
+2022-07-07 17:37:33,501 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 5600 ] | AvgScore is 0.6162700653076172
+2022-07-07 17:38:41,039 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 5650 ] | AvgScore is 0.619553804397583
+2022-07-07 17:39:49,882 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 5700 ] | AvgScore is 0.6191434860229492
+2022-07-07 17:40:57,329 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 5750 ] | AvgScore is 0.6203455924987793
+2022-07-07 17:42:04,663 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 5800 ] | AvgScore is 0.6172821521759033
+2022-07-07 17:43:11,405 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 5850 ] | AvgScore is 0.6148665547370911
+2022-07-07 17:44:17,782 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 5900 ] | AvgScore is 0.6237908601760864
+2022-07-07 17:45:26,870 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 5950 ] | AvgScore is 0.6228570938110352
+2022-07-07 17:46:36,132 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 6000 ] | AvgScore is 0.6228381991386414
+2022-07-07 17:47:45,936 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 6050 ] | AvgScore is 0.6217163801193237
+2022-07-07 17:48:54,195 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 6100 ] | AvgScore is 0.6211504936218262
+2022-07-07 17:50:02,088 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 6150 ] | AvgScore is 0.6242052912712097
+2022-07-07 17:51:11,774 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 6200 ] | AvgScore is 0.6180013418197632
+2022-07-07 17:52:22,440 - Trainer - INFO - Validing Epoch: [ 8 / 10 ] Step [ 6250 ] | AvgScore is 0.6176213026046753
+2022-07-07 17:52:54,604 - Trainer - INFO - Training Epoch: [ 9 / 10 ] | Avg Loss is 0.00019984862275253232
+2022-07-07 17:53:29,774 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6300 ] | AvgScore is 0.6181034445762634
+2022-07-07 17:54:37,825 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6350 ] | AvgScore is 0.6162653565406799
+2022-07-07 17:55:47,055 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6400 ] | AvgScore is 0.618094265460968
+2022-07-07 17:56:58,025 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6450 ] | AvgScore is 0.6162561774253845
+2022-07-07 17:58:07,118 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6500 ] | AvgScore is 0.6086720824241638
+2022-07-07 17:59:13,325 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6550 ] | AvgScore is 0.6086720824241638
+2022-07-07 18:00:21,924 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6600 ] | AvgScore is 0.6106674671173096
+2022-07-07 18:01:31,548 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6650 ] | AvgScore is 0.6106674671173096
+2022-07-07 18:02:40,945 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6700 ] | AvgScore is 0.6086809635162354
+2022-07-07 18:03:48,313 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6750 ] | AvgScore is 0.6086809635162354
+2022-07-07 18:04:56,807 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6800 ] | AvgScore is 0.6086809635162354
+2022-07-07 18:06:05,977 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6850 ] | AvgScore is 0.6086809635162354
+2022-07-07 18:07:15,289 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6900 ] | AvgScore is 0.6086809635162354
+2022-07-07 18:08:25,224 - Trainer - INFO - Validing Epoch: [ 9 / 10 ] Step [ 6950 ] | AvgScore is 0.6086809635162354
+2022-07-07 18:08:56,731 - Trainer - INFO - Training Epoch: [ 10 / 10 ] | Avg Loss is 0.00015585014728588118

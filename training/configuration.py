@@ -27,7 +27,7 @@ class Config:
         metadata = { "help": "每句最长大小" }
     )
     device: str = field(
-        default = "cuda:0",
+        default = "cuda:2",
         metadata = { "help": "GPU" }
     )
     lr: float = field(
@@ -51,7 +51,7 @@ class Config:
         metadata = { "help": "模型保存位置" }
     )
     weight_decay: float = field(
-        default = 1e-4,
+        default = 0.0,
         metadata = { "help": "权重衰减项，防止过拟合的一个参数" }
     )
     bert_lr: float = field(
@@ -59,6 +59,10 @@ class Config:
         metadata = { "help": "BERT的基础学习率" }
     )
     learning_rate: float = field(
-        default = 1e-4,
+        default = 5e-5,
         metadata = { "help": "其他的学习率" }
+    )
+    alpha: float = field(
+        default = 1,
+        metadata = { "help": "KL损失的占比" }
     )

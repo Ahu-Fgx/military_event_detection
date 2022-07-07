@@ -23,6 +23,7 @@ class BertForSpanClassification(BertPreTrainedModel):
     
     def forward(self, inputs_dict=None, entities_ids=None, labels=None, entities_mask=None):
         outputs = self.bert(**inputs_dict).last_hidden_state
+
         sequence_output = self.dropout(outputs)
         
         batch_size, max_len, hidden_dim = sequence_output.shape

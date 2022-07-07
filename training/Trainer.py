@@ -20,7 +20,7 @@ class Trainer():
         
         self.logger = self.set_logger()
         
-        self.optimizer = AdamW(self.get_grouped_params(config, self.model))
+        self.optimizer = AdamW(self.model.parameters(), lr=config.learning_rate)
         self.scheduler = get_cosine_schedule_with_warmup(self.optimizer, 0, len(self.train_dataloader) * self.config.epoches)
     
     def train(self):
@@ -82,7 +82,7 @@ class Trainer():
                 f"Validing Epoch: [ {epoch} / {self.config.epoches} ] Step [ {step} ] | AvgScore is {sum(score) / len(score)}"
             )
             
-        self.logger.info(f"Score Metrics is \n {score_metrics}")
+        # self.logger.info(f"Score Metrics is \n {score_metrics}")
         
         return sum(score) / len(score)
 
@@ -115,51 +115,6 @@ class Trainer():
 
         return [scores, torch.sum(scores[1:, -1]) / (scores.shape[0] - 1)]
 
-    def get_grouped_params(self, args, model):
-        no_decay = ["bias", "LayerNorm.weight"]
-        group1 = ['layer.0.', 'layer.1.', 'layer.2.', 'layer.3.']
-        group2 = ['layer.4.', 'layer.5.', 'layer.6.', 'layer.7.']
-        group3 = ['layer.8.', 'layer.9.', 'layer.10.', 'layer.11.']
-        group_all = ['layer.0.', 'layer.1.', 'layer.2.', 'layer.3.', 'layer.4.', 'layer.5.', 'layer.6.', 'layer.7.',
-                 'layer.8.', 'layer.9.', 'layer.10.', 'layer.11.']
-
-        bert_named_params = dict()
-        base_named_params = dict()
-        for n, p in model.named_parameters():
-            if "bert" in n:
-                bert_named_params.update({ n: p })
-            else:
-                base_named_params.update({ n: p })
-                
-        optimizer_grouped_parameters = [
-        {'params': [p for n, p in bert_named_params.items() if
-                    not any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)],
-         'weight_decay': args.weight_decay},
-        {'params': [p for n, p in bert_named_params.items() if
-                    not any(nd in n for nd in no_decay) and any(nd in n for nd in group1)],
-         'weight_decay': args.weight_decay, 'lr': args.bert_lr / 2},
-        {'params': [p for n, p in bert_named_params.items() if
-                    not any(nd in n for nd in no_decay) and any(nd in n for nd in group2)],
-         'weight_decay': args.weight_decay, 'lr': args.bert_lr},
-        {'params': [p for n, p in bert_named_params.items() if
-                    not any(nd in n for nd in no_decay) and any(nd in n for nd in group3)],
-         'weight_decay': args.weight_decay, 'lr': args.bert_lr * 2},
-
-        {'params': [p for n, p in bert_named_params.items() if
-                    any(nd in n for nd in no_decay) and not any(nd in n for nd in group_all)], 'weight_decay': 0.0},
-        {'params': [p for n, p in bert_named_params.items() if
-                    any(nd in n for nd in no_decay) and any(nd in n for nd in group1)], 'weight_decay': 0.0,
-         'lr': args.bert_lr / 2},
-        {'params': [p for n, p in bert_named_params.items() if
-                    any(nd in n for nd in no_decay) and any(nd in n for nd in group2)], 'weight_decay': 0.0,
-         'lr': args.bert_lr},
-        {'params': [p for n, p in bert_named_params.items() if
-                    any(nd in n for nd in no_decay) and any(nd in n for nd in group3)], 'weight_decay': 0.0,
-         'lr': args.bert_lr * 2},
-        {'params': [p for n, p in base_named_params.items()], 'lr': args.learning_rate, "weight_decay": args.weight_decay}]
-        
-        return optimizer_grouped_parameters
-    
     def set_logger(self):
         logger = logging.getLogger(__name__)
         logger.setLevel(level = logging.INFO)

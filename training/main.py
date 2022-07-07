@@ -2,7 +2,7 @@ from torch.utils.data import DataLoader
 from configuration import Config
 from data_processer.data_process import myDataset, myFn
 from transformers import AutoTokenizer, BertConfig
-from model.bert import BertForSpanClassification
+from model.bert_R_dropout import BertForSpanClassification
 from Trainer import Trainer
 
 # ======== Set Seed ======== #
